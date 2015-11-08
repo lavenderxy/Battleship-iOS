@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68DE182F1BE95BAA0069D05E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE182E1BE95BAA0069D05E /* main.m */; };
+		68DE18321BE95BAA0069D05E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE18311BE95BAA0069D05E /* AppDelegate.m */; };
+		68DE18381BE95BAA0069D05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DE18361BE95BAA0069D05E /* Main.storyboard */; };
+		68DE183A1BE95BAA0069D05E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DE18391BE95BAA0069D05E /* Images.xcassets */; };
+		68DE183D1BE95BAA0069D05E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DE183B1BE95BAA0069D05E /* LaunchScreen.xib */; };
+		68DE18491BE95BAB0069D05E /* yanLab5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE18481BE95BAB0069D05E /* yanLab5Tests.m */; };
+		68DE18591BE95CDD0069D05E /* PlayerOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE18581BE95CDD0069D05E /* PlayerOption.m */; };
+		68DE185C1BE95D080069D05E /* GameLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE185B1BE95D080069D05E /* GameLogic.m */; };
+		68DE18601BE95D8A0069D05E /* BaseSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE185E1BE95D8A0069D05E /* BaseSetView.m */; };
+		68DE18611BE95D8A0069D05E /* BaseSetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DE185F1BE95D8A0069D05E /* BaseSetView.xib */; };
+		68DE18651BE95DBA0069D05E /* GamePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE18631BE95DBA0069D05E /* GamePlay.m */; };
+		68DE18661BE95DBA0069D05E /* GamePlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DE18641BE95DBA0069D05E /* GamePlay.xib */; };
+		68DE186C1BE95E530069D05E /* baseSetbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DE18671BE95E530069D05E /* baseSetbackground.jpg */; };
+		68DE186D1BE95E530069D05E /* battleship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DE18681BE95E530069D05E /* battleship.jpg */; };
+		68DE186E1BE95E530069D05E /* battleship_ship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DE18691BE95E530069D05E /* battleship_ship.jpg */; };
+		68DE186F1BE95E530069D05E /* infor_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DE186A1BE95E530069D05E /* infor_background.jpg */; };
+		68DE18701BE95E530069D05E /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DE186B1BE95E530069D05E /* maxresdefault.jpg */; };
+		68DE187C1BE96E2E0069D05E /* ShipPlacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE187A1BE96E2E0069D05E /* ShipPlacing.m */; };
+		68DE187D1BE96E2E0069D05E /* ShipPlacing.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DE187B1BE96E2E0069D05E /* ShipPlacing.xib */; };
+		68DE18801BE96F200069D05E /* ShipForPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE187F1BE96F200069D05E /* ShipForPlayer.m */; };
+		68DE18841BE96F6E0069D05E /* ShootBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE18821BE96F6E0069D05E /* ShootBoard.m */; };
+		68DE18851BE96F6E0069D05E /* ShootBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DE18831BE96F6E0069D05E /* ShootBoard.xib */; };
+		68DE18881BE9700C0069D05E /* BattleShipGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE18871BE9700C0069D05E /* BattleShipGrid.m */; };
+		68DE188B1BE974BE0069D05E /* DrawShip.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE188A1BE974BE0069D05E /* DrawShip.m */; };
+		68DE188E1BE981840069D05E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE188D1BE981840069D05E /* ViewController.m */; };
+		68DE18921BE9870B0069D05E /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DE18901BE9870B0069D05E /* MainView.m */; };
+		68DE18931BE9870B0069D05E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DE18911BE9870B0069D05E /* MainView.xib */; };
+		68DE18971BE9D7AC0069D05E /* hitShips.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68DE18941BE9D7AC0069D05E /* hitShips.wav */; };
+		68DE18991BE9D7AC0069D05E /* winSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68DE18961BE9D7AC0069D05E /* winSound.wav */; };
+		68DE189B1BE9D9870069D05E /* loseSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68DE189A1BE9D9870069D05E /* loseSound.wav */; };
+		68DE189D1BE9DA150069D05E /* sunkSounds.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68DE189C1BE9DA150069D05E /* sunkSounds.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68DE18431BE95BAB0069D05E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68DE18211BE95BAA0069D05E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DE18281BE95BAA0069D05E;
+			remoteInfo = yanLab5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68DE18291BE95BAA0069D05E /* yanLab5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yanLab5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DE182D1BE95BAA0069D05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DE182E1BE95BAA0069D05E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68DE18301BE95BAA0069D05E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68DE18311BE95BAA0069D05E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68DE18371BE95BAA0069D05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68DE18391BE95BAA0069D05E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68DE183C1BE95BAA0069D05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		68DE18421BE95BAB0069D05E /* yanLab5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yanLab5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DE18471BE95BAB0069D05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DE18481BE95BAB0069D05E /* yanLab5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yanLab5Tests.m; sourceTree = "<group>"; };
+		68DE18571BE95CDD0069D05E /* PlayerOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerOption.h; sourceTree = "<group>"; };
+		68DE18581BE95CDD0069D05E /* PlayerOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerOption.m; sourceTree = "<group>"; };
+		68DE185A1BE95D080069D05E /* GameLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLogic.h; sourceTree = "<group>"; };
+		68DE185B1BE95D080069D05E /* GameLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLogic.m; sourceTree = "<group>"; };
+		68DE185D1BE95D8A0069D05E /* BaseSetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSetView.h; sourceTree = "<group>"; };
+		68DE185E1BE95D8A0069D05E /* BaseSetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSetView.m; sourceTree = "<group>"; };
+		68DE185F1BE95D8A0069D05E /* BaseSetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseSetView.xib; sourceTree = "<group>"; };
+		68DE18621BE95DBA0069D05E /* GamePlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlay.h; sourceTree = "<group>"; };
+		68DE18631BE95DBA0069D05E /* GamePlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlay.m; sourceTree = "<group>"; };
+		68DE18641BE95DBA0069D05E /* GamePlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamePlay.xib; sourceTree = "<group>"; };
+		68DE18671BE95E530069D05E /* baseSetbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = baseSetbackground.jpg; path = yanLab5/image/baseSetbackground.jpg; sourceTree = "<group>"; };
+		68DE18681BE95E530069D05E /* battleship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = battleship.jpg; path = yanLab5/image/battleship.jpg; sourceTree = "<group>"; };
+		68DE18691BE95E530069D05E /* battleship_ship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = battleship_ship.jpg; path = yanLab5/image/battleship_ship.jpg; sourceTree = "<group>"; };
+		68DE186A1BE95E530069D05E /* infor_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = infor_background.jpg; path = yanLab5/image/infor_background.jpg; sourceTree = "<group>"; };
+		68DE186B1BE95E530069D05E /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maxresdefault.jpg; path = yanLab5/image/maxresdefault.jpg; sourceTree = "<group>"; };
+		68DE18791BE96E2E0069D05E /* ShipPlacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipPlacing.h; sourceTree = "<group>"; };
+		68DE187A1BE96E2E0069D05E /* ShipPlacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipPlacing.m; sourceTree = "<group>"; };
+		68DE187B1BE96E2E0069D05E /* ShipPlacing.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShipPlacing.xib; sourceTree = "<group>"; };
+		68DE187E1BE96F200069D05E /* ShipForPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipForPlayer.h; sourceTree = "<group>"; };
+		68DE187F1BE96F200069D05E /* ShipForPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipForPlayer.m; sourceTree = "<group>"; };
+		68DE18811BE96F6E0069D05E /* ShootBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShootBoard.h; sourceTree = "<group>"; };
+		68DE18821BE96F6E0069D05E /* ShootBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShootBoard.m; sourceTree = "<group>"; };
+		68DE18831BE96F6E0069D05E /* ShootBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShootBoard.xib; sourceTree = "<group>"; };
+		68DE18861BE9700C0069D05E /* BattleShipGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleShipGrid.h; sourceTree = "<group>"; };
+		68DE18871BE9700C0069D05E /* BattleShipGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleShipGrid.m; sourceTree = "<group>"; };
+		68DE18891BE974BE0069D05E /* DrawShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawShip.h; sourceTree = "<group>"; };
+		68DE188A1BE974BE0069D05E /* DrawShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawShip.m; sourceTree = "<group>"; };
+		68DE188C1BE981840069D05E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68DE188D1BE981840069D05E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68DE188F1BE9870B0069D05E /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		68DE18901BE9870B0069D05E /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		68DE18911BE9870B0069D05E /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		68DE18941BE9D7AC0069D05E /* hitShips.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hitShips.wav; path = yanLab5/sounds/hitShips.wav; sourceTree = "<group>"; };
+		68DE18961BE9D7AC0069D05E /* winSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = winSound.wav; path = yanLab5/sounds/winSound.wav; sourceTree = "<group>"; };
+		68DE189A1BE9D9870069D05E /* loseSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = loseSound.wav; path = yanLab5/sounds/loseSound.wav; sourceTree = "<group>"; };
+		68DE189C1BE9DA150069D05E /* sunkSounds.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sunkSounds.wav; path = yanLab5/sounds/sunkSounds.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68DE18261BE95BAA0069D05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DE183F1BE95BAB0069D05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68DE18201BE95BAA0069D05E = {
+			isa = PBXGroup;
+			children = (
+				68DE189C1BE9DA150069D05E /* sunkSounds.wav */,
+				68DE189A1BE9D9870069D05E /* loseSound.wav */,
+				68DE18941BE9D7AC0069D05E /* hitShips.wav */,
+				68DE18961BE9D7AC0069D05E /* winSound.wav */,
+				68DE18671BE95E530069D05E /* baseSetbackground.jpg */,
+				68DE18681BE95E530069D05E /* battleship.jpg */,
+				68DE18691BE95E530069D05E /* battleship_ship.jpg */,
+				68DE186A1BE95E530069D05E /* infor_background.jpg */,
+				68DE186B1BE95E530069D05E /* maxresdefault.jpg */,
+				68DE182B1BE95BAA0069D05E /* yanLab5 */,
+				68DE18451BE95BAB0069D05E /* yanLab5Tests */,
+				68DE182A1BE95BAA0069D05E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68DE182A1BE95BAA0069D05E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DE18291BE95BAA0069D05E /* yanLab5.app */,
+				68DE18421BE95BAB0069D05E /* yanLab5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DE182B1BE95BAA0069D05E /* yanLab5 */ = {
+			isa = PBXGroup;
+			children = (
+				68DE188C1BE981840069D05E /* ViewController.h */,
+				68DE188D1BE981840069D05E /* ViewController.m */,
+				68DE18301BE95BAA0069D05E /* AppDelegate.h */,
+				68DE18311BE95BAA0069D05E /* AppDelegate.m */,
+				68DE18571BE95CDD0069D05E /* PlayerOption.h */,
+				68DE18581BE95CDD0069D05E /* PlayerOption.m */,
+				68DE188F1BE9870B0069D05E /* MainView.h */,
+				68DE18901BE9870B0069D05E /* MainView.m */,
+				68DE18911BE9870B0069D05E /* MainView.xib */,
+				68DE185A1BE95D080069D05E /* GameLogic.h */,
+				68DE185B1BE95D080069D05E /* GameLogic.m */,
+				68DE185D1BE95D8A0069D05E /* BaseSetView.h */,
+				68DE185E1BE95D8A0069D05E /* BaseSetView.m */,
+				68DE18621BE95DBA0069D05E /* GamePlay.h */,
+				68DE18631BE95DBA0069D05E /* GamePlay.m */,
+				68DE18791BE96E2E0069D05E /* ShipPlacing.h */,
+				68DE187A1BE96E2E0069D05E /* ShipPlacing.m */,
+				68DE187E1BE96F200069D05E /* ShipForPlayer.h */,
+				68DE187F1BE96F200069D05E /* ShipForPlayer.m */,
+				68DE18811BE96F6E0069D05E /* ShootBoard.h */,
+				68DE18821BE96F6E0069D05E /* ShootBoard.m */,
+				68DE18861BE9700C0069D05E /* BattleShipGrid.h */,
+				68DE18871BE9700C0069D05E /* BattleShipGrid.m */,
+				68DE18891BE974BE0069D05E /* DrawShip.h */,
+				68DE188A1BE974BE0069D05E /* DrawShip.m */,
+				68DE18831BE96F6E0069D05E /* ShootBoard.xib */,
+				68DE187B1BE96E2E0069D05E /* ShipPlacing.xib */,
+				68DE18641BE95DBA0069D05E /* GamePlay.xib */,
+				68DE185F1BE95D8A0069D05E /* BaseSetView.xib */,
+				68DE18361BE95BAA0069D05E /* Main.storyboard */,
+				68DE18391BE95BAA0069D05E /* Images.xcassets */,
+				68DE183B1BE95BAA0069D05E /* LaunchScreen.xib */,
+				68DE182C1BE95BAA0069D05E /* Supporting Files */,
+			);
+			path = yanLab5;
+			sourceTree = "<group>";
+		};
+		68DE182C1BE95BAA0069D05E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68DE182D1BE95BAA0069D05E /* Info.plist */,
+				68DE182E1BE95BAA0069D05E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68DE18451BE95BAB0069D05E /* yanLab5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				68DE18481BE95BAB0069D05E /* yanLab5Tests.m */,
+				68DE18461BE95BAB0069D05E /* Supporting Files */,
+			);
+			path = yanLab5Tests;
+			sourceTree = "<group>";
+		};
+		68DE18461BE95BAB0069D05E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68DE18471BE95BAB0069D05E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68DE18281BE95BAA0069D05E /* yanLab5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DE184C1BE95BAB0069D05E /* Build configuration list for PBXNativeTarget "yanLab5" */;
+			buildPhases = (
+				68DE18251BE95BAA0069D05E /* Sources */,
+				68DE18261BE95BAA0069D05E /* Frameworks */,
+				68DE18271BE95BAA0069D05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yanLab5;
+			productName = yanLab5;
+			productReference = 68DE18291BE95BAA0069D05E /* yanLab5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68DE18411BE95BAB0069D05E /* yanLab5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DE184F1BE95BAB0069D05E /* Build configuration list for PBXNativeTarget "yanLab5Tests" */;
+			buildPhases = (
+				68DE183E1BE95BAB0069D05E /* Sources */,
+				68DE183F1BE95BAB0069D05E /* Frameworks */,
+				68DE18401BE95BAB0069D05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68DE18441BE95BAB0069D05E /* PBXTargetDependency */,
+			);
+			name = yanLab5Tests;
+			productName = yanLab5Tests;
+			productReference = 68DE18421BE95BAB0069D05E /* yanLab5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68DE18211BE95BAA0069D05E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = wustl;
+				TargetAttributes = {
+					68DE18281BE95BAA0069D05E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					68DE18411BE95BAB0069D05E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 68DE18281BE95BAA0069D05E;
+					};
+				};
+			};
+			buildConfigurationList = 68DE18241BE95BAA0069D05E /* Build configuration list for PBXProject "yanLab5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68DE18201BE95BAA0069D05E;
+			productRefGroup = 68DE182A1BE95BAA0069D05E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DE18281BE95BAA0069D05E /* yanLab5 */,
+				68DE18411BE95BAB0069D05E /* yanLab5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68DE18271BE95BAA0069D05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DE18971BE9D7AC0069D05E /* hitShips.wav in Resources */,
+				68DE186F1BE95E530069D05E /* infor_background.jpg in Resources */,
+				68DE18381BE95BAA0069D05E /* Main.storyboard in Resources */,
+				68DE186C1BE95E530069D05E /* baseSetbackground.jpg in Resources */,
+				68DE18851BE96F6E0069D05E /* ShootBoard.xib in Resources */,
+				68DE189B1BE9D9870069D05E /* loseSound.wav in Resources */,
+				68DE183D1BE95BAA0069D05E /* LaunchScreen.xib in Resources */,
+				68DE18931BE9870B0069D05E /* MainView.xib in Resources */,
+				68DE18611BE95D8A0069D05E /* BaseSetView.xib in Resources */,
+				68DE187D1BE96E2E0069D05E /* ShipPlacing.xib in Resources */,
+				68DE186D1BE95E530069D05E /* battleship.jpg in Resources */,
+				68DE183A1BE95BAA0069D05E /* Images.xcassets in Resources */,
+				68DE18701BE95E530069D05E /* maxresdefault.jpg in Resources */,
+				68DE186E1BE95E530069D05E /* battleship_ship.jpg in Resources */,
+				68DE18661BE95DBA0069D05E /* GamePlay.xib in Resources */,
+				68DE18991BE9D7AC0069D05E /* winSound.wav in Resources */,
+				68DE189D1BE9DA150069D05E /* sunkSounds.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DE18401BE95BAB0069D05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68DE18251BE95BAA0069D05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DE187C1BE96E2E0069D05E /* ShipPlacing.m in Sources */,
+				68DE188B1BE974BE0069D05E /* DrawShip.m in Sources */,
+				68DE18591BE95CDD0069D05E /* PlayerOption.m in Sources */,
+				68DE18801BE96F200069D05E /* ShipForPlayer.m in Sources */,
+				68DE18321BE95BAA0069D05E /* AppDelegate.m in Sources */,
+				68DE18921BE9870B0069D05E /* MainView.m in Sources */,
+				68DE18601BE95D8A0069D05E /* BaseSetView.m in Sources */,
+				68DE18651BE95DBA0069D05E /* GamePlay.m in Sources */,
+				68DE185C1BE95D080069D05E /* GameLogic.m in Sources */,
+				68DE188E1BE981840069D05E /* ViewController.m in Sources */,
+				68DE18841BE96F6E0069D05E /* ShootBoard.m in Sources */,
+				68DE182F1BE95BAA0069D05E /* main.m in Sources */,
+				68DE18881BE9700C0069D05E /* BattleShipGrid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DE183E1BE95BAB0069D05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DE18491BE95BAB0069D05E /* yanLab5Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68DE18441BE95BAB0069D05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68DE18281BE95BAA0069D05E /* yanLab5 */;
+			targetProxy = 68DE18431BE95BAB0069D05E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68DE18361BE95BAA0069D05E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DE18371BE95BAA0069D05E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68DE183B1BE95BAA0069D05E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DE183C1BE95BAA0069D05E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68DE184A1BE95BAB0069D05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68DE184B1BE95BAB0069D05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68DE184D1BE95BAB0069D05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yanLab5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		68DE184E1BE95BAB0069D05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yanLab5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		68DE18501BE95BAB0069D05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = yanLab5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yanLab5.app/yanLab5";
+			};
+			name = Debug;
+		};
+		68DE18511BE95BAB0069D05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = yanLab5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yanLab5.app/yanLab5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68DE18241BE95BAA0069D05E /* Build configuration list for PBXProject "yanLab5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DE184A1BE95BAB0069D05E /* Debug */,
+				68DE184B1BE95BAB0069D05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DE184C1BE95BAB0069D05E /* Build configuration list for PBXNativeTarget "yanLab5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DE184D1BE95BAB0069D05E /* Debug */,
+				68DE184E1BE95BAB0069D05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DE184F1BE95BAB0069D05E /* Build configuration list for PBXNativeTarget "yanLab5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DE18501BE95BAB0069D05E /* Debug */,
+				68DE18511BE95BAB0069D05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68DE18211BE95BAA0069D05E /* Project object */;
+}
